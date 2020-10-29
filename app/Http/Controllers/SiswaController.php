@@ -37,6 +37,4 @@ class SiswaController extends Controller
         $siswa->delete();
         return redirect('/siswa')->with('sukses','Data berhasil dihapus!');
     }
-    
-
 }
